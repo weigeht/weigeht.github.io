@@ -5,6 +5,7 @@
 		<title>WHat it do baby</title>
 
 		<style>
+
 			.paragraph{
 				font-size: 16px
 			}
@@ -12,34 +13,90 @@
 				text-align: center;
 				color:white;
 				background-color: black;
-				text-size: 60px;
+				font-size: 60px;
 				border: black;
 			}
 			#tablecon{
 				opacity: .70
 			}
+			#tabcont{
+				float:right;
+				width:30%;
+				margin:10px;
+				border: 2px black dotted;
+			}
 			.date{
-				opacity: .50
+				opacity: .60
+			}
+			.div-body{
+				background-color: rgb(220, 220, 220);
+				padding:15px;
+			}
+			#table1{
+				color:red;
+				font-style:italic;
+			}
+			#back-to-top{
+				text-align: center;
+				font-size: 20px
+				margin:10px;
+			}
+			#bod-div{
+				margin:50px;
+			}
+			.entry{
+				border: 2px solid black;
+				padding:10px;
+			}
+			#i-got{
+				position: relative;
+				z-index: 1;
+				align-content: center;
+				height: 200px;
+				margin: 20px;
 			}
 		</style>
 	</head>
 	<body>
 		<h1 id="title"> WHat it do baby </h1>
-
-		<h3 id="tablecon"> Table of Content<h3>
+<div id="bod-div">
+			<div id="tabcont">
+		<h3 id="tablecon"> <span id="table1">Table</span> of Content</h3>
 			<ol>
 				<li><a href="#intro"> Intro </a></li>
 				<li><a href="#eone">Entry ONe</a></li>
+				<li><a href="#two">Entry TWo</a></li>
 			</ol>
 
-		<h2 id="intro">Intro<h2>
+			</div>
 
-		<p class="paragraph"> THis is my first coding project working with CSS/HTML. This project will function as a type of blog for what I learn and a place where I can practice my skills. I am working on Sublime Text. This project was started on 4/28/20</p>
+		<h2 id="intro">Intro</h2>
 
+		<p class="paragraph"> THis is my first coding project working with CSS/HTML. This project will function as a type of blog for what I learn and a place where I can practice my skills. I am working on Sublime Text and Github. This project was started on 4/28/20.</p>
+
+		<img id="i-got" src="https://res.cloudinary.com/teepublic/image/private/s--RO3vRcyq--/t_Resized%20Artwork/c_fit,g_north_west,h_1054,w_1054/co_ffffff,e_outline:53/co_ffffff,e_outline:inner_fill:53/co_bbbbbb,e_outline:3:1000/c_mpad,g_center,h_1260,w_1260/b_rgb:eeeeee/c_limit,f_jpg,h_630,q_90,w_630/v1575052993/production/designs/6951149_0.jpg" alt="I got swag">
+
+
+		<div class="div-body">
+			<div class="entry">
 		<h2 id="eone">Entry ONe</h2>
 
 		<h3 class="date">Date: 4/28/20</h3>
 
-		<p class="paragraph"> I have completed several Khan Academy courses online and I am very much enjoying the new skills that I have learned up until this point. I enjoy that every other lesson switches from HTML to CSS, so that I am learning both of the languages at a steady pace. I hope that I continue to enjoy this journey and continue to learn the programming of a computer</p>
+		<p class="paragraph"> I have completed several Khan Academy courses online and I am very much enjoying the new skills that I have learned up until this point. I enjoy that every other lesson switches from HTML to CSS, so that I am learning both of the languages at a steady pace. I hope that I continue to enjoy this journey and continue to learn the programming of a computer.</p>
+			</div>
+
+			<div class="entry">
+		<h2 id="two">Entry TWo</h2>
+
+		<h3 class="date">Date: 4/29/20</h3>
+
+		<p class="paragraph"> THis is my second entry. Today I have added several div tags along with borders and margins after learning more about CSS properties. I refreshed my memory that CSS stands for cascading style sheets and that HTML stands for Hyper Text Mark-up Language. I have also added an image and plan on adding more so that I can work on tags such as z-index, position (absolute, fixed, and relative), and other tags regarding image placement Everything is starting to get a lot more complicated. I will probably end up adding more pictures and/or side bars in the near future in order to work with the float/width and clear properties. I just don't know exactly what I'll add yet. I must say though, I am impressed with how much I've been able to learn so far in such a short amount of time.</p>
+			</div>
+
+	<p><a id="back-to-top" href="#title">Back to top</a></p>
+
+		</div>
+</div>
 	</body>
 </html>
